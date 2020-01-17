@@ -1,0 +1,22 @@
+aside {
+    width: 320px;
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.2);
+    padding: 30px;
+    animation-name: myanimation ;
+    animation-duration: 2s;
+    position: relative;
+    
+}
+
+aside strong{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+
+@keyframes myanimation {
+    0% { left: -1000px;}
+    100% { left: 0px;}
+}
